@@ -1,0 +1,53 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_intros",
+  "info": {
+    "singularName": "about-intro",
+    "pluralName": "about-intros",
+    "displayName": "About-Intro",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intro": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "List": {
+      "displayName": "bullet",
+      "type": "component",
+      "repeatable": true,
+      "component": "list.bullet"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "years": {
+      "type": "string"
+    },
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "banner.banner"
+    }
+  }
+}

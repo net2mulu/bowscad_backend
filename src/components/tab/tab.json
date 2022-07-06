@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_tab_tabs",
+  "info": {
+    "displayName": "tab",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

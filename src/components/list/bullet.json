@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_list_bullets",
+  "info": {
+    "displayName": "bullet"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

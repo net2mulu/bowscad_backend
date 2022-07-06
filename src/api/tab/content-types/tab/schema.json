@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "tabs",
+  "info": {
+    "singularName": "tab",
+    "pluralName": "tabs",
+    "displayName": "Tab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tab": {
+      "displayName": "tab",
+      "type": "component",
+      "repeatable": true,
+      "component": "tab.tab"
+    }
+  }
+}

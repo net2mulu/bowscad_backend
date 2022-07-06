@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_infos",
+  "info": {
+    "singularName": "header-info",
+    "pluralName": "header-infos",
+    "displayName": "Header-info"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "SocialLinks": {
+      "displayName": "SocialsLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "sociallinks.socials-links"
+    }
+  }
+}

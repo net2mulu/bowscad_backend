@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sociallinks_socials_links",
+  "info": {
+    "displayName": "SocialsLinks",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "vision_mission_values",
+  "info": {
+    "singularName": "vision-mission-value",
+    "pluralName": "vision-mission-values",
+    "displayName": "Vision-Mission-Value",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "media": {
+      "displayName": "simple-media",
+      "type": "component",
+      "repeatable": true,
+      "component": "media-layout.simple-media"
+    }
+  }
+}
